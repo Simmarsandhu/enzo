@@ -1,0 +1,78 @@
+#div_simp{
+    width: 50em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+}
+#div_simp h1{
+  font-family: 'Rubik Glitch', cursive;
+}
+.topnav{
+    overflow: hidden;
+    position:sticky;
+	top: 10;
+    width: 100%;
+    align-items: center;
+}
+.topnav a{
+color:black;
+  font-weight: bold;
+  font-family: 'Sono', sans-serif;
+  text-align-last: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+
+  }
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }
+input{
+accent-color: orangered;
+text-align: left;
+
+  }
+  p{
+    font-family: 'Roboto Mono', monospace;
+
+  
+  }
+  
+
+  
+  .button-24 {
+    background: #fb4039;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .button-24:hover,
+  .button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+  }
+  
+  .button-24:active {
+    opacity: .5;
+  }

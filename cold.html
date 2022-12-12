@@ -1,6 +1,7 @@
 <html>
     <head>
     <title>enzo </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Marhey:wght@500&display=swap" rel="stylesheet">
@@ -13,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -24,8 +25,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="cold.css">
 </head>  
     <body>
         <section>
@@ -45,33 +47,72 @@
         <center>
         <div id="div2" style="background-color: white; height:500px ;width: 800px ;padding: 20px;" >
             <div>
-        <h1>having high temperature ?</h1>
-        <button onclick="yes()"class="yes ">YES</button><br>
-        <button class="no">NO</button>
-    </div>
-    <div>
-        <h1>are you having colud and cough?</h1>
-        <button onclick="yes()"class="yes " class="yes ">YES</button><br>
-        <button class="no">NO</button>
-    </div>
-    <div>
-        <h1>having headache?</h1>
-        <button onclick="yes()"class="yes "class="yes ">YES</button><r></r>
-        <button class="no">NO</button>
-    </div>
-    <div>
-        <h1>feeling week and tired or having pain in joints  ?</h1>
-        <button onclick="yes()"class="yes " class="yes ">YES</button><br>
-        <button class="no">NO</button>
-    </div>
-    <div>
-        <h1>facing problem in breathing or chest pain?</h1>
-        <button onclick="yes()"class="yes " class="yes ">YES</button><br>
-        <button class="no">NO</button>
-    </div>
-    <button onclick="result()"id="submit">SUBMIT</button>
-</div>
+       
+              <form >
+                <p>Having high temperature ?:</p>
+                <input type="radio" id="yes1" name="yesorno" value="yes" onclick="yes()">
+                <label for="yes1">YES</label><br>
+                <input type="radio" id="no1" name="yesorno" value="no">
+                <label for="no1">NO</label><br>
+            
+              
+                <br>  
+              </form>
+              <form>
+                
+                <p>Are you having running nosead feeling sneezy:</p>
+                <input type="radio" id="yes2" name="yesorno" value="yes" onclick="yes()">
+                <label for="yes2">YES</label><br>
+                <input type="radio" id="no2" name="yesorno" value="no">
+                <label for="no2">NO</label><br>  
+                
     
+                
+                
+              </form>
+              <form >
+                <p>Having headache?chills, cough, congestion?:</p>
+                <input type="radio" id="yes3" name="yesorno" value="yes" onclick="yes()">
+                <label for="yes3">YES</label><br>
+                <input type="radio" id="no3" name="yesorno" value="no">
+                <label for="no3">NO</label><br>
+            
+              
+                <br>  
+              
+                
+               
+              </form>
+              
+              <form>
+                <p>Feeling weak and tired or having pain in joints?feel like you lost your apetite?:</p>
+                <input type="radio" id="yes4" name="yesorno" value="yes" onclick="yes()">
+                <label for="yes4">YES</label><br>
+                <input type="radio" id="no4" name="yesorno" value="no">
+                <label for="no4">NO</label><br>
+            
+              
+                <br>  
+              
+                
+               
+              </form>
+              <form >
+                <p>facing problem in breathing or chest pain?</p>
+                <input type="radio" id="yes5" name="fav_language" value="yes" onclick="yes()">
+                <label for="yes5">YES</label><br>
+                <input type="radio" id="no5" name="fav_language" value="no">
+                <label for="no5">NO</label><br>
+            
+              
+                
+                
+    
+                
+                
+              </form>
+              <button  onclick="results()" class="button-24">   SUBMIT</button>
+</div>
     <script src="cold.js"></script>
 </section>
 </center>
