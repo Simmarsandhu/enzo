@@ -95,3 +95,24 @@ background-size: cover;
 {
 	padding-left:5px;color:grey;
 }
+.topnav{
+    overflow: hidden;
+    position:sticky;
+	top: 10;
+    width: 100%;
+    align-items: center;
+}
+.topnav a{
+color:black;
+  font-weight: bold;
+  font-family: 'Sono', sans-serif;
+  text-align-last: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+
+  }
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }

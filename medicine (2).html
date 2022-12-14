@@ -35,15 +35,18 @@
 
 <link rel="stylesheet" type="text/css" href="medicine.css">
 </head>
-<body><div class="topnav">
-    <img src="Pink Minimal Typography Logo .png" style="height: 150px;  margin-right: 400px; ">
-         <a href="" target="_self">BUY</a>
-      <a class="active" href="index.html" style="margin-left: 50px;">HOME &nbsp;&nbsp;</a>
-          <a href="chat app/index.html" target="_self">CONTACT DOCTOR &nbsp;&nbsp;</a>
-          <a href=" https://simmarsandhu.github.io/kwitter/" target="_self"> &nbsp;&nbsp;COMMUNITY</a>
-          <a href="index5.html" target="_self"> &nbsp;&nbsp;SYMPTOM TEST</a>
-            </div>
-  </div>
+<body>
+    <diV style="background-color: black; margin-top: 0%; position: sticky;"></diV>
+    <div class="topnav">
+      <img src="Pink Minimal Typography Logo .png" style="height: 150px;  margin-right: 250px; ">
+           <a href="medicine(2).html" target="_self">BUY</a>
+        <a class="active" href="index.html" style="margin-left: 50px;">HOME &nbsp;&nbsp;</a>
+            <a href="chat.html" target="_self">CONTACT DOCTOR &nbsp;&nbsp;</a>
+            <a href=" https://simmarsandhu.github.io/kwitter/" target="_self"> &nbsp;&nbsp;COMMUNITY</a>
+            <a href="symptom.html" target="_self"> &nbsp;&nbsp;SYMPTOM TEST</a>
+            <a href="db.html" target="_self"> &nbsp;&nbsp;PATIENTS INFO</a>
+              </div>
+    </div>
   
 <div Id="div1">
     <div style="float: right;">
@@ -63,7 +66,10 @@ position: sticky;
 top:0;
 padding: 5px;">
     <a><img src="shopping-bag.png" style="height: 50px;"></a>
-    <a href="cart.html">VIEW CART</a>
+    
+    <div class="popup" onclick="myFunction()" style="color: white;">cart
+        <span class="popuptext" id="myPopup">Popup text...</span>
+      </div>
 
 </div>
 <center>
@@ -72,11 +78,11 @@ padding: 5px;">
         <div class="row" style="margin-top: 100px;">
             <div class="col-lg-3 div_p">
                 <img src="https://i.pinimg.com/564x/6d/d5/6b/6dd56b56d220f4c49c25dd2598e37a15.jpg" style="height:100px;width:100px">
-                <p>Paracetamol</p>
+                <p>PARACETAMOL</p>
                 <br>
                 <br>
                 <p>rs.</p>
-                <button class="button-54">ADD</button>
+                <button class="button-54" id="button_par" onclick="add1()">ADD</button>
             </div>
             <div class="col-lg-3 div_p">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTalWL29wCbC693p1t_9dsq_6K-KcvEGvPq1e_amtdDiCBn9R9PWSKkAUyNko9g4tpOCvQ&usqp=CAU" style="height:100px;width:100px">
@@ -84,50 +90,50 @@ padding: 5px;">
                 <br>
                 <br>
                 <p>rs.</p>
-                <button class="button-54">ADD</button>
+                <button class="button-54" id="button_ben" onclick="add2()">ADD</button>
             </div>
             <div class="col-lg-3 div_p">
                 <img src="https://img.medscapestatic.com/pi/features/drugdirectory/octupdate/00206318.jpg?output-quality=50" style="height:100px;width:100px">
-                <p>PRODUCT</p>
+                <p>STOMACH RELIEF</p>
                 <br>
                 <br>
                 <p>rs.</p>
-                <button class="button-54">ADD</button>
+                <button class="button-54" id="button_stom" onclick="add3()">ADD</button>
             </div>
             <div class="col-lg-3 div_p">
                 <img src="https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/cropped/ckrjzacxu5okokbtdgku.jpg" style="height:100px;width:100px">
-                <p>PRODUCT</p>
+                <p>PUDHIN HARA</p>
                 <br>
                 <br>
                 <p>rs.</p>
-                <button class="button-54">ADD</button>
+                <button class="button-54" id="button_pud" onclick="add4()">ADD</button>
             </div>
             
             <div class="col-lg-3 div_p">
                 <img src="https://i0.wp.com/homeomart.net/wp-content/uploads/2017/09/hevert-gastro-germany-intestinal-relief-tablets.jpg?fit=542%2C470&ssl=1" style="height:100px;width:100px">
-                <p>PRODUCT</p>
+                <p>GASTO INTESTINAL RELIEF</p>
                 <br>
                 <br>
                 <p>rs.</p>
-                <button class="button-54">ADD</button>
+                <button class="button-54" id="button_gaso" onclick="add5()">ADD</button>
             </div>
             
             <div class="col-lg-3 div_p">
                 <img src="https://m.media-amazon.com/images/I/71Am99zPDsL._SL1500_.jpg" style="height:100px;width:100px">
-                <p>PRODUCT</p>
+                <p>SOFI</p>
                 <br>
                 <br>
                 <p>rs.</p>
-                <button class="button-54">ADD</button>
+                <button class="button-54"id="butt_sofi" onclick="add6()">ADD</button>
             </div>
 
- 
  
  
         </div>
     </center>
     </div>
 </div>
+<script src="medicine (2).js"></script>
 </section>
                          
                 </div>
