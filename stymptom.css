@@ -5,10 +5,11 @@ body{
 .topnav{
     overflow: hidden;
     position:sticky;
-	top: 10;
+	  top: 10;
     width: 100%;
     align-items: center;
     background-color: white;
+    font-family: 'Sono', sans-serif;
 }
 .topnav a{
 color:black;
@@ -109,7 +110,7 @@ color:black;
   .div1
   {
       left: 0%;
-      background: ;
+      
       display: block;
       width: 345px;
       height: 170px;
